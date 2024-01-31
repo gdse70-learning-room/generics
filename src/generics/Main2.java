@@ -28,5 +28,7 @@ public class Main2 {
         commonClass.setObj(20.5);
         commonClass.setObj("Hello");
         commonClass.setObj(true);
+
+        CommonClass<Student> stcc = new CommonClass<>(new Student());
     }
 }
